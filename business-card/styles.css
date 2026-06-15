@@ -1,0 +1,51 @@
+body {
+    margin: 20px;
+    min-height: 100vh;
+    font-family: Georgia;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 150px;
+    border-radius: 20px;
+}
+
+.business-card {
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #fecee9;
+    color: 011c27;
+    border-bottom: 10px solid #545677;
+    border-left: 10px solid #03254e;
+    border-radius: 20px;
+}
+
+.business-card:hover, .image:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+}
+
+a{
+  text-decoration: none; /* Removes the underline */
+  color: inherit;        /* Inherits color from parent text */
+       /* Optional: Changes pointer hand to a text selector */
+}
+
+.insta:hover{
+    transform: scale(1.15)
+}
+
+.yt:hover{
+    transform: scale(1.15)
+}
+
